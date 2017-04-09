@@ -1,0 +1,27 @@
+html,
+body,
+div,
+img{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 100%;
+}
+img{
+  width: 100%;
+}
+.mobile{
+  display: block;
+}
+.desktop{
+  display: none;
+}
+@media (min-width: 600px) {
+  .desktop {
+    display: block;
+  }
+  .mobile{
+    display: none;
+  }
+}
